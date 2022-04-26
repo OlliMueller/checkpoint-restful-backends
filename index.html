@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oliver Mueller" />
+    <title>Contacts widget of LinkedIn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>LinkedIn Contacts</h1>
+      <section class="container-invitations">
+        <p class="pending-invitations" id="pending"></p>
+        <button class="button-see-all">Manage</button>
+      </section>
+      <section class="container-widget">
+        <div class="container-content">
+          <p class="people-you-may-know">
+            People you may know from University of Tübingen
+          </p>
+          <button class="button-see-all">See all</button>
+        </div>
+        <div id="contact-cards" class="contact-cards"></div>
+      </section>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
